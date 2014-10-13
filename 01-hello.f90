@@ -2,7 +2,7 @@ program helloworld
 
   implicit none
 
-  print '(A)', 'Helloooopeeeeyyyy'
+  print*, 'Helloooopeeeeyyyy'
 
   stop
 
