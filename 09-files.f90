@@ -1,12 +1,18 @@
 program files
 
+	implicit none
+
   integer:: i, j, k
 
   open(10, file = 'test.dat')
 
   read(10, *) i, j, k
 
-  write(*, *) 'Found numbers', i, j, 'and', k
+  print *, 'Found numbers', i, j, 'and', k
+
+  read (10, *) i, j, k
+
+  print *, 'Found numbers', i, j, 'and', k
 
   close(10)
 
