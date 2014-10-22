@@ -1,6 +1,6 @@
 program files
 
-	implicit none
+  implicit none
 
   integer:: i, j, k
 
